@@ -1,23 +1,18 @@
 name: Deploy Hugo site to Pages
-
 on:
   push:
     branches: ["main"]
   workflow_dispatch:
-
 permissions:
   contents: read
   pages: write
   id-token: write
-
 concurrency:
   group: "pages"
   cancel-in-progress: false
-
 defaults:
   run:
     shell: bash
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -43,58 +38,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./website/public
-
-  deploy:
-    environment:
-      name: github-pages
-Nein, der Code ist unvollständig! Der deploy-Job braucht noch den Deployment-Schritt. Hier ist der vollständige Code:
-
-name: Deploy Hugo site to Pages
-
-on:
-  push:
-    branches: ["main"]
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
-defaults:
-  run:
-    shell: bash
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.163.3
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: '0.163.3'
-          extended: true
-      - name: Clone Ananke Theme
-        run: git clone https://github.com/theNewDynamic/gohugo-theme-ananke.git website/themes/ananke
-      - name: Build with Hugo
-        env:
-          HUGO_CACHEDIR: ${{ github.workspace }}/.hugo_cache
-        run: cd website && hugo --gc --minify
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./website/public
-
   deploy:
     environment:
       name: github-pages
