@@ -1,6 +1,9 @@
 # Alles ignorieren
 *
 
+# Aber .gitignore selbst tracken
+!.gitignore
+
 # Nur Website-Verzeichnis tracken
 !website/
 
