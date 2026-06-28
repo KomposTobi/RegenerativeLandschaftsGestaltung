@@ -1,0 +1,23 @@
+{{/* Site Header with improved navigation */}}
+<header class="site-header bg-dark-green" role="banner">
+  <div class="mw8 center ph4 pv3">
+    <div class="flex flex-wrap items-center justify-between">
+      <div class="site-title">
+        <a href="{{ .Site.Home.RelPermalink }}" class="no-underline white">
+          {{ .Site.Title }}
+        </a>
+      </div>
+      <nav class="main-menu" role="navigation">
+        <ul class="list pa0 ma0 flex flex-wrap">
+          {{ range .Site.Menus.main }}
+            <li class="ml4">
+              <a href="{{ .URL }}" class="link white hover-cream fw5">
+                {{ .Name }}
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

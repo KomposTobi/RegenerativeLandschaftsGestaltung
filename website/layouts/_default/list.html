@@ -1,0 +1,31 @@
+{{ define "main" }}
+  <article class="pa4 pa5-ns">
+    <h1 class="f1 lh-title">{{ .Title }}</h1>
+    
+    {{ with .Content }}
+      <div class="nested-copy-line-height nested-links nested-img">
+        {{ . }}
+      </div>
+    {{ end }}
+
+    {{/* Show child pages if this is a section */}}
+    {{ $pages := .Pages }}
+    {{ if gt (len $pages) 0 }}
+      <div class="mt5">
+        <h2 class="f2 lh-title">Unterseiten</h2>
+        <div class="flex flex-wrap">
+          {{ range $pages }}
+            <div class="w-100 w-50-m w-third-l ph3 pv3">
+              <a href="{{ .RelPermalink }}" class="link db pa3 bg-white shadow-hover hover-bg-light-gray br3">
+                <h3 class="f4 lh-title mb2">{{ .Title }}</h3>
+                {{ with .Description }}
+                  <p class="f6 lh-copy measure mt2">{{ . }}</p>
+                {{ end }}
+              </a>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  </article>
+{{ end }}

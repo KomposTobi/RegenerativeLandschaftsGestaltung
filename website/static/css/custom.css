@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 .site-header {
   background-color: var(--wg-green-dark);
   border-bottom: 3px solid var(--wg-cream);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .site-header a {
@@ -40,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   letter-spacing: 0.5px;
 }
@@ -48,14 +49,21 @@ h1, h2, h3, h4, h5, h6 {
 /* Navigation */
 .main-menu a {
   font-family: 'Arial', sans-serif;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: color 0.2s;
+  color: var(--wg-cream) !important;
 }
 
 .main-menu a:hover {
-  color: var(--wg-cream) !important;
+  color: #fff !important;
+}
+
+/* Breadcrumb */
+nav[aria-label="Breadcrumb"] {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
 }
 
 /* Buttons */
