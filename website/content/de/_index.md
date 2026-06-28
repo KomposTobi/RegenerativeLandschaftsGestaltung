@@ -17,19 +17,19 @@ Die Projekte auf dieser Seite sind keine abgeschlossenen Arbeiten. Sie sind Stat
 ## Erkunde die Website
 
 <div class="flex flex-wrap gap-4 mt-8">
-  <a href="/warum/" class="no-underline pa3 ba bw1 b--dark-blue bg-near-white dark-blue hover-bg-dark-blue hover-white transition-all">
+  <a href="{{ "warum/" | relURL }}" class="no-underline pa3 ba bw1 b--dark-blue bg-near-white dark-blue hover-bg-dark-blue hover-white transition-all">
     <strong>Warum</strong><br>
     <small>Das Problem und die Antwort</small>
   </a>
-  <a href="/konzepte/" class="no-underline pa3 ba bw1 b--green bg-near-white green hover-bg-green hover-white transition-all">
+  <a href="{{ "konzepte/" | relURL }}" class="no-underline pa3 ba bw1 b--green bg-near-white green hover-bg-green hover-white transition-all">
     <strong>Konzepte</strong><br>
     <small>Die Werkzeuge die ich nutze</small>
   </a>
-  <a href="/projekte/" class="no-underline pa3 ba bw1 b--light-blue bg-near-white light-blue hover-bg-light-blue hover-near-black transition-all">
+  <a href="{{ "projekte/" | relURL }}" class="no-underline pa3 ba bw1 b--light-blue bg-near-white light-blue hover-bg-light-blue hover-near-black transition-all">
     <strong>Projekte</strong><br>
     <small>Was ich bisher gemacht habe</small>
   </a>
-  <a href="/verbindungen/" class="no-underline pa3 ba bw1 b--dark-blue bg-near-white dark-blue hover-bg-dark-blue hover-white transition-all">
+  <a href="{{ "verbindungen/" | relURL }}" class="no-underline pa3 ba bw1 b--dark-blue bg-near-white dark-blue hover-bg-dark-blue hover-white transition-all">
     <strong>Verbindungen</strong><br>
     <small>Wie alles zusammenhängt</small>
   </a>
