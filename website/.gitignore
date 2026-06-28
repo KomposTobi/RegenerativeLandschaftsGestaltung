@@ -3,9 +3,6 @@ public/
 resources/
 .hugo_build.lock
 
-# Themes (werden vom CI gebaut)
-themes/
-
 # OS
 .DS_Store
 Thumbs.db

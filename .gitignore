@@ -16,8 +16,6 @@
 !website/**
 
 # Aber diese Dateien/Directories in website ignorieren
-website/themes/
 website/public/
 website/resources/
 website/.hugo_build.lock
-website/.github/
