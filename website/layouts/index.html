@@ -24,10 +24,8 @@
         </div>
       {{ end }}
 
-      {{/* Show main sections as cards */}}
-      {{ $sections := where .Site.RegularPages "Section" "!=" "" }}
-      {{ $mainSections := where .Site.Sections "RelPermalink" "!=" "/galerie/" }}
-      {{ $mainSections = where $mainSections "RelPermalink" "!=" "/kontakt/" }}
+      {{/* Show all main sections as cards */}}
+      {{ $mainSections := .Site.Sections }}
       {{ if gt (len $mainSections) 0 }}
         <div class="mt5">
           <h2 class="f2 lh-title mb4">Hauptbereiche</h2>
