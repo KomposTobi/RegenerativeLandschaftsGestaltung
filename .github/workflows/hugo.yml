@@ -37,21 +37,19 @@ jobs:
         run: |
           cd website && hugo mod get
       - name: Build with Hugo
-        env:
-          HUGO_CACHEDIR: ${{ github.workspace }}/.hugo_cache
-        run: |
-          cd website && hugo --gc --minify
-      - name: Upload artifact
-        uses: actions/upload-pages-art
 
-Perfekt, ich sehe alle 5 fehlgeschlagenen Workflows. Der neueste ("Update hugo.yml") hat den `hugo mod get` Schritt noch nicht.
-
-**Mach das jetzt:**
+Ich sehe der neueste Workflow ist wieder fehlgeschlagen. Lass mich die Fehlermeldung sehen:
 
 1. Klick auf den neuesten Workflow ("Update hugo.yml" - ganz oben)
-2. Dann auf den fehlgeschlagenen Job
-3. Dann auf das Stift-Icon (Edit this file) oben rechts
-4. Ersetze den gesamten Inhalt mit diesem Code:
+2. Klick auf den fehlgeschlagenen Job
+3. Klick auf "Set up Hugo" oder "Build with Hugo" (welcher auch rot ist)
+4. Schick mir einen Screenshot der Fehlermeldung
+
+Oder noch besser - editiere den Workflow direkt:
+
+1. Klick auf den neuesten Workflow
+2. Klick auf das Stift-Icon (Edit this file) oben rechts
+3. Ersetze den gesamten Inhalt mit diesem Code:
 
 ```yaml
 name: Deploy Hugo site to Pages
@@ -92,9 +90,4 @@ jobs:
       - name: Get Hugo Modules
         run: |
           cd website && hugo mod get
-      - name: Build with Hugo
-        env:
-          HUGO_CACHEDIR: ${{ github.workspace }}/.hugo_cache
-        run: |
-          cd website && hugo --gc --minify
-      - name: Upl
+      - name: Build with H
