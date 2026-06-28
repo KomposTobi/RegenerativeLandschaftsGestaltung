@@ -44,12 +44,11 @@ defaultContentLanguageInSubdir = false
   background_color_class = 'bg-near-white'
   ogImage = '/images/hero/poster3-top.jpg'
   
-  # Markenfarben
   [params.colors]
-    primary = '#172c51'      # Dunkelblau
-    secondary = '#739353'    # Grün
-    accent = '#83baff'       # Hellblau
-  
+    primary = '#172c51'
+    secondary = '#739353'
+    accent = '#83baff'
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
