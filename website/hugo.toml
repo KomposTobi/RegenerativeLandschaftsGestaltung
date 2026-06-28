@@ -2,6 +2,7 @@ baseURL = 'https://kompostobi.github.io/RegenerativeLandschaftsGestaltung/'
 title = 'Regenerative Landschaftsgestaltung'
 defaultContentLanguage = 'de'
 defaultContentLanguageInSubdir = false
+canonifyURLs = true
 
 [module]
   [[module.imports]]
