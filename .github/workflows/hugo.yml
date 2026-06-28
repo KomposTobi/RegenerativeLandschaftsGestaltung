@@ -36,7 +36,7 @@ jobs:
         run: |
           cd website
           hugo mod init github.com/KomposTobi/RegenerativeLandschaftsGestaltung
-          hugo mod get github.com/theNewDynamic/gohugo-theme-ananke/v2
+          hugo mod get github.com/gohugo-ananke/ananke/v2
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ github.workspace }}/.hugo_cache
