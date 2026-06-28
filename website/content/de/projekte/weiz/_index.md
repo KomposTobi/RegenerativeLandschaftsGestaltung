@@ -1,7 +1,7 @@
 ---
 title: "Regenerating Weiz — Akademische Vertiefung"
 description: "Wassereinzugsgebiet-Analyse + Konzept (2026)"
-featured_image: '/images/hero/poster3-top.jpg'
+featured_image: '/RegenerativeLandschaftsGestaltung/images/hero/poster3-top.jpg'
 ---
 
 **Status:** Poster-Präsentation abgeschlossen (SS26)  
@@ -48,7 +48,7 @@ Gesamtes Wassereinzugsgebiet analysiert, Multi-Scale-Strategie entwickelt, KURAS
 
 ### Ridge (Kamm) — 500m+
 
-![Ridge-Zone](/images/illustrations/ridge-weiz.jpg)
+![Ridge-Zone](/RegenerativeLandschaftsGestaltung/images/illustrations/ridge-weiz.jpg)
 
 - Große Bäume: Kastanie, Eiche, Maulbeere, Walnuss
 - Funktionen: Schatten, Windschutz, Niederschlagsförderung
@@ -56,7 +56,7 @@ Gesamtes Wassereinzugsgebiet analysiert, Multi-Scale-Strategie entwickelt, KURAS
 
 ### Slope — Agricultural
 
-![Agriculture-Zone](/images/illustrations/agriculture-weiz.png)
+![Agriculture-Zone](/RegenerativeLandschaftsGestaltung/images/illustrations/agriculture-weiz.png)
 
 - Keyline Ripping (Untergrundlockerung)
 - Agroforst-Heckenpflanzungen
@@ -64,7 +64,7 @@ Gesamtes Wassereinzugsgebiet analysiert, Multi-Scale-Strategie entwickelt, KURAS
 
 ### Slope — Settlement
 
-![Settlement-Zone](/images/illustrations/settlement-weiz.jpg)
+![Settlement-Zone](/RegenerativeLandschaftsGestaltung/images/illustrations/settlement-weiz.jpg)
 
 - Dachwasser → Speichertanks → Schwimmteiche
 - Bioswales, Schilfbeete
@@ -78,7 +78,7 @@ Gesamtes Wassereinzugsgebiet analysiert, Multi-Scale-Strategie entwickelt, KURAS
 
 ### Valley Bottom
 
-![Community Hub](/images/illustrations/community-center-weiz.jpg)
+![Community Hub](/RegenerativeLandschaftsGestaltung/images/illustrations/community-center-weiz.jpg)
 
 - Renaturierte Ufervegetation
 - Community-Hub mit Demonstrationsanlage
@@ -91,7 +91,7 @@ Gesamtes Wassereinzugsgebiet analysiert, Multi-Scale-Strategie entwickelt, KURAS
 
 ### Air Prune Boxes
 
-![Air Prune Boxes](/images/illustrations/airpruneboxes-weiz.jpg)
+![Air Prune Boxes](/RegenerativeLandschaftsGestaltung/images/illustrations/airpruneboxes-weiz.jpg)
 
 - 1m² Anzuchtfläche, 100-300 Setzlinge
 - Luftspalt beschneidigt Pfahlwurzel → faseriges Wurzelsystem
@@ -99,7 +99,7 @@ Gesamtes Wassereinzugsgebiet analysiert, Multi-Scale-Strategie entwickelt, KURAS
 
 ### Sukzessions-Management
 
-![Sukzession](/images/illustrations/succession-weiz.jpg)
+![Sukzession](/RegenerativeLandschaftsGestaltung/images/illustrations/succession-weiz.jpg)
 
 - Pionierarten (Weide, Pappel) durch Stecklinge etabliert
 - Beschneidung und Mulchen

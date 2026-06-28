@@ -1,7 +1,7 @@
 ---
 title: "Regenerative Landschaftsgestaltung"
 description: "Vom Wasserkreislauf zum lebendigen Ökosystem — Analyse, Design, Umsetzung."
-featured_image: '/images/hero/poster3-top.jpg'
+featured_image: '/RegenerativeLandschaftsGestaltung/images/hero/poster3-top.jpg'
 ---
 
 # Vom Wasserkreislauf zum lebendigen Ökosystem
