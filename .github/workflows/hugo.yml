@@ -27,13 +27,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive
           fetch-depth: 0
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: '0.163.3'
           extended: true
+      - name: Get Hugo Modules
+        run: |
+          cd website && hugo mod get
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ github.workspace }}/.hugo_cache
