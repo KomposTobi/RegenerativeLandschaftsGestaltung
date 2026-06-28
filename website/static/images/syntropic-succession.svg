@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs>
+    <style>
+      .title { font: bold 24px sans-serif; fill: #1a1a1a; }
+      .subtitle { font: 18px sans-serif; fill: #4a4a4a; }
+      .label { font: 14px sans-serif; fill: #333; }
+      .small { font: 12px sans-serif; fill: #666; }
+      .stage-title { font: bold 16px sans-serif; }
+      .natural { fill: #666; }
+      .syntropic { fill: #d4a017; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" class="title">Syntropische Landwirtschaft</text>
+  <text x="400" y="65" text-anchor="middle" class="subtitle">Beschleunigte Sukzession durch gezieltes Management</text>
+  
+  <!-- Comparison: Natural vs Syntropic timeline -->
+  <g transform="translate(50, 100)">
+    <text x="350" y="0" text-anchor="middle" class="subtitle">Zeitvergleich: Natürlich vs. Syntropisch</text>
+    
+    <!-- Natural timeline -->
+    <rect x="0" y="20" width="340" height="60" fill="#f0f0f0" stroke="#999" stroke-width="2" rx="5"/>
+    <text x="170" y="45" text-anchor="middle" class="label natural">Natürliche Sukzession</text>
+    <text x="170" y="65" text-anchor="middle" class="small natural">100+ Jahre bis Klimaxwald</text>
+    
+    <!-- Syntropic timeline -->
+    <rect x="360" y="20" width="340" height="60" fill="#fff8dc" stroke="#d4a017" stroke-width="2" rx="5"/>
+    <text x="530" y="45" text-anchor="middle" class="label syntropic">Syntropischer Ansatz</text>
+    <text x="530" y="65" text-anchor="middle" class="small syntropic">5-10 Jahre bis produktives System</text>
+    
+    <!-- Arrow showing acceleration -->
+    <path d="M 340 50 L 360 50" fill="none" stroke="#d4a017" stroke-width="3" marker-end="url(#accelArrow)"/>
+    <defs>
+      <marker id="accelArrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+        <polygon points="0 0, 10 3, 0 6" fill="#d4a017"/>
+      </marker>
+    </defs>
+  </g>
+  
+  <!-- Syntropic Principles -->
+  <g transform="translate(50, 200)">
+    <text x="350" y="0" text-anchor="middle" class="subtitle" fill="#d4a017">Die drei Prinzipien</text>
+    
+    <!-- Principle 1 -->
+    <rect x="0" y="20" width="220" height="100" fill="#fff8dc" stroke="#d4a017" stroke-width="2" rx="5"/>
+    <text x="110" y="45" text-anchor="middle" class="stage-title" fill="#d4a017">1. Konsortien</text>
+    <text x="110" y="65" text-anchor="middle" class="small">Arten mit ähnlichen</text>
+    <text x="110" y="80" text-anchor="middle" class="small">Anforderungen zusammen</text>
+    <text x="110" y="95" text-anchor="middle" class="small">pflanzen</text>
+    
+    <!-- Principle 2 -->
+    <rect x="240" y="20" width="220" height="100" fill="#fff8dc" stroke="#d4a017" stroke-width="2" rx="5"/>
+    <text x="350" y="45" text-anchor="middle" class="stage-title" fill="#d4a017">2. Schichtung</text>
+    <text x="350" y="65" text-anchor="middle" class="small">Vertikale Struktur:</text>
+    <text x="350" y="80" text-anchor="middle" class="small">Niedrig → Mittel → Hoch</text>
+    <text x="350" y="95" text-anchor="middle" class="small">→ Sehr hoch</text>
+    
+    <!-- Principle 3 -->
+    <rect x="480" y="20" width="220" height="100" fill="#fff8dc" stroke="#d4a017" stroke-width="2" rx="5"/>
+    <text x="590" y="45" text-anchor="middle" class="stage-title" fill="#d4a017">3. Sukzession</text>
+    <text x="590" y="65" text-anchor="middle" class="small">Zeitliche Abfolge:</text>
+    <text x="590" y="80" text-anchor="middle" class="small">Pionier → Aufbau →</text>
+    <text x="590" y="95" text-anchor="middle" class="small">Klimax</text>
+  </g>
+  
+  <!-- Syntropic Stratification Diagram -->
+  <g transform="translate(50, 340)">
+    <text x="350" y="0" text-anchor="middle" class="subtitle" fill="#d4a017">Stratifikation: Vertikale Schichtung</text>
+    
+    <!-- Ground -->
+    <rect x="0" y="250" width="700" height="20" fill="#8b6f47"/>
+    
+    <!-- Layer 1: Ground cover -->
+    <rect x="20" y="230" width="660" height="20" fill="#90ee90" opacity="0.6"/>
+    <text x="350" y="245" text-anchor="middle" class="small">Bodenbedecker: Erdbeeren, Klee, Kürbis</text>
+    
+    <!-- Layer 2: Shrubs -->
+    <g transform="translate(100, 150)">
+      <ellipse cx="0" cy="0" rx="30" ry="40" fill="#3a6" opacity="0.7"/>
+      <ellipse cx="80" cy="0" rx="30" ry="40" fill="#3a6" opacity="0.7"/>
+      <ellipse cx="160" cy="0" rx="30" ry="40" fill="#3a6" opacity="0.7"/>
+      <ellipse cx="240" cy="0" rx="30" ry="40" fill="#3a6" opacity="0.7"/>
+      <ellipse cx="320" cy="0" rx="30" ry="40" fill="#3a6" opacity="0.7"/>
+      <ellipse cx="400" cy="0" rx="30" ry="40" fill="#3a6" opacity="0.7"/>
+      <ellipse cx="480" cy="0" rx="30" ry="40" fill="#3a6" opacity="0.7"/>
+    </g>
+    <text x="350" y="210" text-anchor="middle" class="small">Sträucher: Beeren, Haselnuss, Flieder</text>
+    
+    <!-- Layer 3: Small trees -->
+    <g transform="translate(80, 80)">
+      <line x1="0" y1="100" x2="0" y2="40" stroke="#4a2" stroke-width="5"/>
+      <ellipse cx="0" cy="40" rx="25" ry="35" fill="#2d5016"/>
+      <line x1="140" y1="100" x2="140" y2="40" stroke="#4a2" stroke-width="5"/>
+      <ellipse cx="140" cy="40" rx="25" ry="35" fill="#2d5016"/>
+      <line x1="280" y1="100" x2="280" y2="40" stroke="#4a2" stroke-width="5"/>
+      <ellipse cx="280" cy="40" rx="25" ry="35" fill="#2d5016"/>
+      <line x1="420" y1="100" x2="420" y2="40" stroke="#4a2" stroke-width="5"/>
+      <ellipse cx="420" cy="40" rx="25" ry="35" fill="#2d5016"/>
+      <line x1="560" y1="100" x2="560" y2="40" stroke="#4a2" stroke-width="5"/>
+      <ellipse cx="560" cy="40" rx="25" ry="35" fill="#2d5016"/>
+    </g>
+    <text x="350" y="140" text-anchor="middle" class="small">Kleine Bäume: Obstbäume, Nussbäume</text>
+    
+    <!-- Layer 4: Canopy trees -->
+    <g transform="translate(50, 0)">
+      <line x1="0" y1="180" x2="0" y2="60" stroke="#4a2" stroke-width="8"/>
+      <ellipse cx="0" cy="60" rx="40" ry="55" fill="#1a4d0a"/>
+      <line x1="200" y1="180" x2="200" y2="60" stroke="#4a2" stroke-width="8"/>
+      <ellipse cx="200" cy="60" rx="40" ry="55" fill="#1a4d0a"/>
+      <line x1="400" y1="180" x2="400" y2="60" stroke="#4a2" stroke-width="8"/>
+      <ellipse cx="400" cy="60" rx="40" ry="55" fill="#1a4d0a"/>
+      <line x1="600" y1="180" x2="600" y2="60" stroke="#4a2" stroke-width="8"/>
+      <ellipse cx="600" cy="60" rx="40" ry="55" fill="#1a4d0a"/>
+    </g>
+    <text x="350" y="30" text-anchor="middle" class="small">Kronenschicht: Große Bäume (Eiche, Buche, Kastanie)</text>
+  </g>
+  
+  <!-- Succession Timeline -->
+  <g transform="translate(50, 630)">
+    <text x="350" y="0" text-anchor="middle" class="subtitle" fill="#d4a017">Sukzessions-Timeline</text>
+    
+    <!-- Year 0-2 -->
+    <rect x="0" y="20" width="140" height="80" fill="#fff8dc" stroke="#d4a017" stroke-width="2" rx="5"/>
+    <text x="70" y="45" text-anchor="middle" class="stage-title" fill="#d4a017">Jahr 0-2</text>
+    <text x="70" y="65" text-anchor="middle" class="small">Pionierarten:</text>
+    <text x="70" y="80" text-anchor="middle" class="small">Gemüse, Kräuter</text>
+    <text x="70" y="95" text-anchor="middle" class="small">Schnellwachsende Bäume</text>
+    
+    <!-- Year 2-5 -->
+    <rect x="160" y="20" width="140" height="80" fill="#fff8dc" stroke="#d4a017" stroke-width="2" rx="5"/>
+    <text x="230" y="45" text-anchor="middle" class="stage-title" fill="#d4a017">Jahr 2-5</text>
+    <text x="230" y="65" text-anchor="middle" class="small">Aufbauarten:</text>
+    <text x="230" y="80" text-anchor="middle" class="small">Sträucher, kleine Bäume</text>
+    <text x="230" y="95" text-anchor="middle" class="small">Erste Ernten</text>
+    
+    <!-- Year 5-10 -->
+    <rect x="320" y="20" width="140" height="80" fill="#fff8dc" stroke="#d4a017" stroke-width="2" rx="5"/>
+    <text x="390" y="45" text-anchor="middle" class="stage-title" fill="#d4a017">Jahr 5-10</text>
+    <text x="390" y="65" text-anchor="middle" class="small">Produktionsphase:</text>
+    <text x="390" y="80" text-anchor="middle" class="small">Obstbäume tragen</text>
+    <text x="390" y="95" text-anchor="middle" class="small">Volle Ernten</text>
+    
+    <!-- Year 10+ -->
+    <rect x="480" y="20" width="220" height="80" fill="#fff8dc" stroke="#d4a017" stroke-width="2" rx="5"/>
+    <text x="590" y="45" text-anchor="middle" class="stage-title" fill="#d4a017">Jahr 10+</text>
+    <text x="590" y="65" text-anchor="middle" class="small">Klimax-Phase:</text>
+    <text x="590" y="80" text-anchor="middle" class="small">Stabiles Ökosystem</text>
+    <text x="590" y="95" text-anchor="middle" class="small">Selbsterhaltend</text>
+    
+    <!-- Arrow -->
+    <path d="M 0 110 L 700 110" fill="none" stroke="#d4a017" stroke-width="3" marker-end="url(#timelineArrow)"/>
+    <defs>
+      <marker id="timelineArrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+        <polygon points="0 0, 10 3, 0 6" fill="#d4a017"/>
+      </marker>
+    </defs>
+  </g>
+  
+  <!-- Key Benefits -->
+  <g transform="translate(50, 780)">
+    <text x="350" y="0" text-anchor="middle" class="subtitle" fill="#d4a017">Vorteile des syntropischen Ansatzes</text>
+    
+    <!-- Benefit 1 -->
+    <rect x="0" y="20" width="220" height="100" fill="#f0fff0" stroke="#2d5016" stroke-width="2" rx="5"/>
+    <text x="110" y="45" text-anchor="middle" class="stage-title" fill="#2d5016">Schnelle Produktivität</text>
+    <text x="110" y="65" text-anchor="middle" class="small">Ernte ab Jahr 2-3</text>
+    <text x="110" y="80" text-anchor="middle" class="small">Kontinuierliche Erträge</text>
+    <text x="110" y="95" text-anchor="middle" class="small">Wirtschaftlich tragfähig</text>
+    
+    <!-- Benefit 2 -->
+    <rect x="240" y="20" width="220" height="100" fill="#f0fff0" stroke="#2d5016" stroke-width="2" rx="5"/>
+    <text x="350" y="45" text-anchor="middle" class="stage-title" fill="#2d5016">Bodenaufbau</text>
+    <text x="350" y="65" text-anchor="middle" class="small">Biomasse-Produktion</text>
+    <text x="350" y="80" text-anchor="middle" class="small">Organische Substanz</text>
+    <text x="350" y="95" text-anchor="middle" class="small">Fruchtbarkeit steigt</text>
+    
+    <!-- Benefit 3 -->
+    <rect x="480" y="20" width="220" height="100" fill="#f0fff0" stroke="#2d5016" stroke-width="2" rx="5"/>
+    <text x="590" y="45" text-anchor="middle" class="stage-title" fill="#2d5016">Resilienz</text>
+    <text x="590" y="65" text-anchor="middle" class="small">Diversität = Stabilität</text>
+    <text x="590" y="80" text-anchor="middle" class="small">Weniger Pflege</text>
+    <text x="590" y="95" text-anchor="middle" class="small">Selbsterhaltend</text>
+  </g>
+  
+  <!-- Summary -->
+  <rect x="50" y="920" width="700" height="60" fill="#fff8dc" stroke="#d4a017" stroke-width="2" rx="5"/>
+  <text x="400" y="945" text-anchor="middle" class="label" fill="#d4a017">Prinzip: Die Natur beschleunigen, nicht ersetzen</text>
+  <text x="400" y="965" text-anchor="middle" class="small">Wir nutzen natürliche Prozesse, aber mit gezieltem Management für maximale Effizienz</text>
+</svg>

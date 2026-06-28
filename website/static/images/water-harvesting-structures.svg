@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+  <defs>
+    <style>
+      .title { font: bold 24px sans-serif; fill: #1a1a1a; }
+      .subtitle { font: 18px sans-serif; fill: #4a4a4a; }
+      .label { font: 14px sans-serif; fill: #333; }
+      .small { font: 12px sans-serif; fill: #666; }
+      .water { fill: #4a90d9; }
+      .earth { fill: #8b6f47; }
+      .plant { fill: #2d5016; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" class="title">Wasserernte-Strukturen</text>
+  <text x="400" y="65" text-anchor="middle" class="subtitle">Von der Fläche zum Speicher</text>
+  
+  <!-- 1. Swales -->
+  <g transform="translate(50, 100)">
+    <text x="350" y="0" text-anchor="middle" class="subtitle" fill="#2d5016">1. Swales (Hanggräben)</text>
+    
+    <!-- Hillside cross-section -->
+    <path d="M 0 150 L 700 50" fill="none" stroke="#8b6f47" stroke-width="3"/>
+    
+    <!-- Swale 1 -->
+    <path d="M 150 120 L 150 140 L 250 130 L 250 110" fill="#4a90d9" opacity="0.6"/>
+    <path d="M 150 120 L 250 110" fill="none" stroke="#333" stroke-width="2"/>
+    <path d="M 150 140 L 250 130" fill="none" stroke="#333" stroke-width="2"/>
+    
+    <!-- Berm -->
+    <ellipse cx="260" cy="108" rx="15" ry="8" fill="#8b6f47"/>
+    
+    <!-- Plants on berm -->
+    <circle cx="260" cy="100" r="8" fill="#2d5016"/>
+    <circle cx="275" cy="98" r="6" fill="#2d5016"/>
+    
+    <!-- Water arrows -->
+    <path d="M 100 80 Q 150 100, 200 120" fill="none" stroke="#4a90d9" stroke-width="2" marker-end="url(#waterArrow)"/>
+    <path d="M 300 70 Q 250 90, 200 115" fill="none" stroke="#4a90d9" stroke-width="2" marker-end="url(#waterArrow)"/>
+    
+    <!-- Labels -->
+    <text x="200" y="160" text-anchor="middle" class="label">Wasser sickert ein</text>
+    <text x="260" y="85" text-anchor="middle" class="small">Bepflanzter Wall</text>
+    
+    <defs>
+      <marker id="waterArrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+        <polygon points="0 0, 10 3, 0 6" fill="#4a90d9"/>
+      </marker>
+    </defs>
+  </g>
+  
+  <!-- 2. Rain Gardens -->
+  <g transform="translate(50, 300)">
+    <text x="350" y="0" text-anchor="middle" class="subtitle" fill="#2d5016">2. Regengärten</text>
+    
+    <!-- Depression -->
+    <path d="M 100 100 Q 200 150, 300 150 Q 400 150, 500 100" fill="#4a90d9" opacity="0.4"/>
+    <path d="M 100 100 Q 200 150, 300 150 Q 400 150, 500 100" fill="none" stroke="#333" stroke-width="2"/>
+    
+    <!-- Plants -->
+    <circle cx="200" cy="120" r="10" fill="#2d5016"/>
+    <circle cx="250" cy="130" r="12" fill="#2d5016"/>
+    <circle cx="300" cy="135" r="10" fill="#2d5016"/>
+    <circle cx="350" cy="130" r="11" fill="#2d5016"/>
+    <circle cx="400" cy="120" r="10" fill="#2d5016"/>
+    
+    <!-- Inflow arrow -->
+    <path d="M 50 50 L 150 100" fill="none" stroke="#4a90d9" stroke-width="3" marker-end="url(#waterArrow)"/>
+    <text x="30" y="45" class="label">Zufluss</text>
+    
+    <!-- Labels -->
+    <text x="300" y="180" text-anchor="middle" class="label">Flache Mulde mit wasserliebenden Pflanzen</text>
+    <text x="300" y="195" text-anchor="middle" class="small">Verzögert Abfluss, filtert Nährstoffe</text>
+  </g>
+  
+  <!-- 3. Retention Ponds -->
+  <g transform="translate(50, 520)">
+    <text x="350" y="0" text-anchor="middle" class="subtitle" fill="#2d5016">3. Retentionsteiche</text>
+    
+    <!-- Pond -->
+    <ellipse cx="350" cy="120" rx="200" ry="60" fill="#4a90d9" opacity="0.7"/>
+    <ellipse cx="350" cy="120" rx="200" ry="60" fill="none" stroke="#333" stroke-width="2"/>
+    
+    <!-- Dam -->
+    <path d="M 550 60 L 550 180" fill="none" stroke="#8b6f47" stroke-width="8"/>
+    
+    <!-- Spillway -->
+    <path d="M 550 80 Q 600 80, 650 100" fill="none" stroke="#4a90d9" stroke-width="3"/>
+    
+    <!-- Plants around -->
+    <circle cx="200" cy="90" r="8" fill="#2d5016"/>
+    <circle cx="250" cy="80" r="10" fill="#2d5016"/>
+    <circle cx="450" cy="85" r="9" fill="#2d5016"/>
+    <circle cx="500" cy="90" r="8" fill="#2d5016"/>
+    
+    <!-- Labels -->
+    <text x="350" y="200" text-anchor="middle" class="label">Dauerhafter Wasserspeicher</text>
+    <text x="350" y="215" text-anchor="middle" class="small">Hochwasserschutz + Bewässerung + Habitat</text>
+  </g>
+  
+  <!-- 4. Keyline Design -->
+  <g transform="translate(50, 760)">
+    <text x="350" y="0" text-anchor="middle" class="subtitle" fill="#2d5016">4. Keyline Design</text>
+    
+    <!-- Valley shape -->
+    <path d="M 100 100 Q 350 200, 600 100" fill="none" stroke="#8b6f47" stroke-width="3"/>
+    
+    <!-- Keyline channels -->
+    <path d="M 150 110 Q 250 140, 350 150 Q 450 140, 550 110" fill="none" stroke="#4a90d9" stroke-width="2" stroke-dasharray="5,5"/>
+    <path d="M 170 130 Q 270 160, 350 170 Q 430 160, 530 130" fill="none" stroke="#4a90d9" stroke-width="2" stroke-dasharray="5,5"/>
+    <path d="M 190 150 Q 290 180, 350 190 Q 410 180, 510 150" fill="none" stroke="#4a90d9" stroke-width="2" stroke-dasharray="5,5"/>
+    
+    <!-- Key point -->
+    <circle cx="350" cy="150" r="8" fill="#c33"/>
+    <text x="350" y="220" text-anchor="middle" class="label">Schlüsselpunkt (Key Point)</text>
+    
+    <!-- Labels -->
+    <text x="350" y="240" text-anchor="middle" class="small">Wasser wird entlang der Höhenlinien verteilt</text>
+    <text x="350" y="255" text-anchor="middle" class="small">Maximale infiltration, minimale Erosion</text>
+  </g>
+  
+  <!-- Summary box -->
+  <rect x="50" y="920" width="700" height="60" fill="#f0f8ff" stroke="#4a90d9" stroke-width="2" rx="5"/>
+  <text x="400" y="945" text-anchor="middle" class="label" fill="#2d5016">Prinzip: Wasser verlangsamen, verteilen, infiltrieren</text>
+  <text x="400" y="965" text-anchor="middle" class="small">Jede Struktur nutzt die Topographie, um Wasser dort zu halten, wo es fällt</text>
+</svg>

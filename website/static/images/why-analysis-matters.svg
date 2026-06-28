@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .title { font: bold 24px sans-serif; fill: #1a1a1a; }
+      .subtitle { font: 18px sans-serif; fill: #4a4a4a; }
+      .label { font: 14px sans-serif; fill: #333; }
+      .good { fill: #2d5016; }
+      .bad { fill: #8b1a1a; }
+      .neutral { fill: #666; }
+    </style>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" class="title">Warum Standortanalyse wichtig ist</text>
+  
+  <!-- Left side: Without Analysis -->
+  <rect x="50" y="80" width="320" height="480" fill="#fee" stroke="#c33" stroke-width="2" rx="10"/>
+  <text x="210" y="110" text-anchor="middle" class="subtitle bad">Ohne Analyse</text>
+  
+  <!-- Problems -->
+  <g transform="translate(80, 140)">
+    <circle cx="15" cy="15" r="15" fill="#c33"/>
+    <text x="15" y="20" text-anchor="middle" fill="white" font-size="20">✗</text>
+    <text x="45" y="20" class="label">Pflanzen sterben</text>
+    <text x="45" y="38" class="label" font-size="12" fill="#666">Falscher Boden, falsche Exposition</text>
+  </g>
+  
+  <g transform="translate(80, 210)">
+    <circle cx="15" cy="15" r="15" fill="#c33"/>
+    <text x="15" y="20" text-anchor="middle" fill="white" font-size="20">✗</text>
+    <text x="45" y="20" class="label">Wasser fließt weg</text>
+    <text x="45" y="38" class="label" font-size="12" fill="#666">Topographie ignoriert</text>
+  </g>
+  
+  <g transform="translate(80, 280)">
+    <circle cx="15" cy="15" r="15" fill="#c33"/>
+    <text x="15" y="20" text-anchor="middle" fill="white" font-size="20">✗</text>
+    <text x="45" y="20" class="label">System kollabiert</text>
+    <text x="45" y="38" class="label" font-size="12" fill="#666">Klima nicht berücksichtigt</text>
+  </g>
+  
+  <g transform="translate(80, 350)">
+    <circle cx="15" cy="15" r="15" fill="#c33"/>
+    <text x="15" y="20" text-anchor="middle" fill="white" font-size="20">✗</text>
+    <text x="45" y="20" class="label">Geld verschwendet</text>
+    <text x="45" y="38" class="label" font-size="12" fill="#666">Fehlinvestitionen</text>
+  </g>
+  
+  <!-- Sad landscape -->
+  <g transform="translate(100, 430)">
+    <path d="M 0 50 Q 50 30, 100 50 T 200 50" fill="none" stroke="#999" stroke-width="2"/>
+    <line x1="50" y1="50" x2="50" y2="20" stroke="#8b4513" stroke-width="3"/>
+    <path d="M 50 20 Q 40 10, 30 15" fill="none" stroke="#8b4513" stroke-width="2"/>
+    <text x="100" y="70" text-anchor="middle" class="label" fill="#c33">Ergebnis: Frustration</text>
+  </g>
+  
+  <!-- Right side: With Analysis -->
+  <rect x="430" y="80" width="320" height="480" fill="#efe" stroke="#3c3" stroke-width="2" rx="10"/>
+  <text x="590" y="110" text-anchor="middle" class="subtitle good">Mit Analyse</text>
+  
+  <!-- Successes -->
+  <g transform="translate(460, 140)">
+    <circle cx="15" cy="15" r="15" fill="#3c3"/>
+    <text x="15" y="20" text-anchor="middle" fill="white" font-size="20">✓</text>
+    <text x="45" y="20" class="label">Pflanzen wachsen</text>
+    <text x="45" y="38" class="label" font-size="12" fill="#666">Standortgerechte Arten</text>
+  </g>
+  
+  <g transform="translate(460, 210)">
+    <circle cx="15" cy="15" r="15" fill="#3c3"/>
+    <text x="15" y="20" text-anchor="middle" fill="white" font-size="20">✓</text>
+    <text x="45" y="20" class="label">Wasser gespeichert</text>
+    <text x="45" y="38" class="label" font-size="12" fill="#666">Topographie genutzt</text>
+  </g>
+  
+  <g transform="translate(460, 280)">
+    <circle cx="15" cy="15" r="15" fill="#3c3"/>
+    <text x="15" y="20" text-anchor="middle" fill="white" font-size="20">✓</text>
+    <text x="45" y="20" class="label">System resilient</text>
+    <text x="45" y="38" class="label" font-size="12" fill="#666">Klimagerecht gestaltet</text>
+  </g>
+  
+  <g transform="translate(460, 350)">
+    <circle cx="15" cy="15" r="15" fill="#3c3"/>
+    <text x="15" y="20" text-anchor="middle" fill="white" font-size="20">✓</text>
+    <text x="45" y="20" class="label">Investition zahlt sich aus</text>
+    <text x="45" y="38" class="label" font-size="12" fill="#666">Datenbasierte Entscheidungen</text>
+  </g>
+  
+  <!-- Happy landscape -->
+  <g transform="translate(480, 430)">
+    <path d="M 0 50 Q 50 30, 100 50 T 200 50" fill="none" stroke="#2d5016" stroke-width="2"/>
+    <line x1="50" y1="50" x2="50" y2="10" stroke="#4a2" stroke-width="3"/>
+    <ellipse cx="50" cy="10" rx="20" ry="15" fill="#2d5016"/>
+    <line x1="100" y1="50" x2="100" y2="20" stroke="#4a2" stroke-width="3"/>
+    <ellipse cx="100" cy="20" rx="15" ry="12" fill="#2d5016"/>
+    <path d="M 150 50 Q 160 40, 170 50" fill="#4a9" stroke="#2d5016" stroke-width="1"/>
+    <text x="100" y="70" text-anchor="middle" class="label" fill="#2d5016">Ergebnis: Erfolg</text>
+  </g>
+  
+  <!-- Arrow in middle -->
+  <path d="M 380 320 L 420 320" fill="none" stroke="#333" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

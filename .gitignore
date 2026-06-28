@@ -1,0 +1,14 @@
+# Alles ignorieren
+*
+
+# Nur Website-Verzeichnis tracken
+!website/
+
+# Innerhalb von website alles tracken
+!website/**
+
+# Aber diese Dateien/Directories in website ignorieren
+website/themes/
+website/public/
+website/resources/
+website/.hugo_build.lock

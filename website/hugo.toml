@@ -1,0 +1,53 @@
+baseURL = 'https://kompostobi.github.io/RegenerativeLandschaftsGestaltung/'
+title = 'Regenerative Landschaftsgestaltung'
+theme = 'ananke'
+defaultContentLanguage = 'de'
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.de]
+    locale = 'de-AT'
+    label = 'Deutsch'
+    contentDir = 'content/de'
+    weight = 1
+    [languages.de.params]
+      description = 'Regenerative Landschaftsgestaltung — Vom Wasserkreislauf zum lebendigen Ökosystem'
+    [languages.de.menu]
+      [[languages.de.menu.main]]
+        name = 'Warum'
+        url = '/warum/'
+        weight = 1
+      [[languages.de.menu.main]]
+        name = 'Konzepte'
+        url = '/konzepte/'
+        weight = 2
+      [[languages.de.menu.main]]
+        name = 'Projekte'
+        url = '/projekte/'
+        weight = 3
+      [[languages.de.menu.main]]
+        name = 'Verbindungen'
+        url = '/verbindungen/'
+        weight = 4
+      [[languages.de.menu.main]]
+        name = 'Kontakt'
+        url = '/kontakt/'
+        weight = 5
+
+[params]
+  favicon = ''
+  site_logo = ''
+  recent_posts_number = 5
+  background_color_class = 'bg-near-white'
+  ogImage = '/images/hero/poster3-top.jpg'
+  
+  # Markenfarben
+  [params.colors]
+    primary = '#172c51'      # Dunkelblau
+    secondary = '#739353'    # Grün
+    accent = '#83baff'       # Hellblau
+  
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
