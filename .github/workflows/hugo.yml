@@ -36,55 +36,21 @@ jobs:
           extended: true
       - name: Build with Hugo
         env:
-          HUGO_CACHEDIR
+          HUGO_CACHEDIR: ${{ github.workspace }}/.hugo_cache
+        run: |
+          cd website && hugo --gc --minify
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./website/public
 
-Der Push ist fehlgeschlagen — das GitHub Token hat keine `workflow` Berechtigung. Das ist ein bekanntes GitHub-Sicherheitsfeature: Workflow-Dateien können nur mit einem speziellen `workflow`-Scope erstellt/aktualisiert werden.
-
-**Zwei schnelle Lösungen:**
-
-## Lösung A: Workflow-File manuell in GitHub erstellen (am schnellsten)
-
-1. Geh zu deinem Repo: https://github.com/KomposTobi/RegenerativeLandschaftsGestaltung
-2. Klick auf **"Add file"** → **"Create new file"**
-3. Als Dateiname eingeben: `.github/workflows/hugo.yml`
-4. Diesen Inhalt einfügen:
-
-```yaml
-name: Deploy Hugo site to Pages
-
-on:
-  push:
-    branches: ["main"]
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
-defaults:
-  run:
-    shell: bash
-
-jobs:
-  build:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.163.3
+    needs: build
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          submodules: recursive
-          fetch-depth: 0
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: '0.163.3'
-          extended: true
-      - name: Build with Hugo
-      
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
