@@ -1,11 +1,11 @@
 ---
-title: "Perktold-Ansitz Hofer — Erste Beratung"
-description: "Private Gartengestaltung am Steilhang (2025)"
-featured_image: '/RegenerativeLandschaftsGestaltung/images/projects/perktold/uebersicht.jpg'
+title: "Ansitz Hofer — Erste Beratung"
+description: "Private Gartengestaltung am Steilhang im Stubaital (2025)"
+featured_image: '/RegenerativeLandschaftsGestaltung/images/projects/ansitz-hofer/uebersicht.jpg'
 ---
 
 **Status:** Planung V1.0 erstellt (März 2025)  
-**Ort:** Gröbenweg 2, 6166 Fulpmes, Tirol  
+**Ort:** Stubaital, Tirol  
 **Typ:** Private Gartengestaltung am Steilhang  
 **Unternehmens-Phase:** Phase 2 (Beratung und Design)
 
@@ -51,22 +51,22 @@ Von der Analyse zum fertigen Design — digitale Standortanalyse, Terrassierungs
 
 ## Visuelles Material
 
-![Übersichtsplan](/RegenerativeLandschaftsGestaltung/images/projects/perktold/uebersicht.jpg)  
+![Übersichtsplan](/RegenerativeLandschaftsGestaltung/images/projects/ansitz-hofer/uebersicht.jpg)  
 *Gesamtplan V1.0*
 
-![Grundriss-Anpassungen](/RegenerativeLandschaftsGestaltung/images/projects/perktold/grundriss.jpg)  
+![Grundriss-Anpassungen](/RegenerativeLandschaftsGestaltung/images/projects/ansitz-hofer/grundriss.jpg)  
 *Design-Iteration*
 
-![Schnitt der Terrassierung](/RegenerativeLandschaftsGestaltung/images/projects/perktold/schnitt-terrassierung.jpg)  
+![Schnitt der Terrassierung](/RegenerativeLandschaftsGestaltung/images/projects/ansitz-hofer/schnitt-terrassierung.jpg)  
 *Höhenmodell*
 
-![Schnitt der Ebene](/RegenerativeLandschaftsGestaltung/images/projects/perktold/schnitt-ebene.jpg)  
+![Schnitt der Ebene](/RegenerativeLandschaftsGestaltung/images/projects/ansitz-hofer/schnitt-ebene.jpg)  
 *Querschnitt*
 
-![Berechnungen](/RegenerativeLandschaftsGestaltung/images/projects/perktold/berechnungen.jpg)  
+![Berechnungen](/RegenerativeLandschaftsGestaltung/images/projects/ansitz-hofer/berechnungen.jpg)  
 *Statik und Mauerberechnung*
 
-![Bachlauf-Retentionsbecken](/RegenerativeLandschaftsGestaltung/images/projects/perktold/bachlauf.png)  
+![Bachlauf-Retentionsbecken](/RegenerativeLandschaftsGestaltung/images/projects/ansitz-hofer/bachlauf.png)  
 *Wasser-Design*
 
 ---

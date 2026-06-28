@@ -136,5 +136,5 @@ Drei-Ebenen-Modell (Gebäude → Quartier → Kanaleinzugsgebiet) mit 27 Maßnah
 ## Verbindung zu anderen Projekten
 
 → Methodik aus Bachelorarbeit angewandt und erweitert  
-→ Perktold als Micro-Referenz  
+→ Ansitz Hofer als Micro-Referenz  
 → KURAS als Brücke zwischen urban und regenerativ

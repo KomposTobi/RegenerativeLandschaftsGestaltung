@@ -37,5 +37,5 @@ GIS-Karten aus der Arbeit
 ## Verbindung zu anderen Projekten
 
 → Methodik übertragen auf Regenerating Weiz  
-→ Erkenntnisse fließen in Perktold-Ansitz Hofer ein  
+→ Erkenntnisse fließen in Ansitz Hofer ein  
 → Erdgewächshaus-Konzept im selben Kontext entwickelt

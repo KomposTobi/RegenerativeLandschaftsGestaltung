@@ -22,7 +22,7 @@ Diese Projekte sind keine isolierten Arbeiten — sie sind Teile eines größere
 - PDC (2021): Systeme denken, Muster erkennen
 - Tirolerheim: Garten als Experimentierfeld
 - Weiz: Multi-Scale-Ansatz, Keyline, Agroforst
-- Perktold: Terrassierung, Wasser-Management
+- Ansitz Hofer: Terrassierung, Wasser-Management
 
 ### Akademische Forschung
 
@@ -33,7 +33,7 @@ Diese Projekte sind keine isolierten Arbeiten — sie sind Teile eines größere
 ### Hands-on Building
 
 - Baupraktikum Natursteinmauerbau: Trockensteinmauer-Technik
-- Perktold: Mauerbau, Terrassierung, Wasser-Design
+- Ansitz Hofer: Mauerbau, Terrassierung, Wasser-Design
 - Tirolerheim: Garten-Etablierung, Erdgewächshaus-Konzept
 
 ### Business
@@ -46,4 +46,4 @@ Diese Projekte sind keine isolierten Arbeiten — sie sind Teile eines größere
 
 ## Das Muster
 
-Jedes Projekt nährt die anderen. Die GIS-Methodik aus der Bachelorarbeit fließt in Weiz ein. Die Mauerbau-Technik aus dem Baupraktikum wird in Perktold angewandt. Die Erkenntnisse aus Weiz werden in Krawi getestet. Es ist ein iterativer Prozess — jeder Schritt baut auf dem vorherigen auf.
+Jedes Projekt nährt die anderen. Die GIS-Methodik aus der Bachelorarbeit fließt in Weiz ein. Die Mauerbau-Technik aus dem Baupraktikum wird in Ansitz Hofer angewandt. Die Erkenntnisse aus Weiz werden in Krawi getestet. Es ist ein iterativer Prozess — jeder Schritt baut auf dem vorherigen auf.

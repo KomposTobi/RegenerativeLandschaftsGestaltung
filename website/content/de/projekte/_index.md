@@ -20,4 +20,4 @@ PHASE 3: AUSFÜHRUNG UND MANAGEMENT
 → Umsetzung vor Ort, Baubegleitung, langfristige Pflege
 ```
 
-Die Projekte unten zeigen, wie sich diese Entwicklung in der Praxis entfaltet — vom ersten Garten (Tirolerheim) über private Planung (Perktold) und akademische Analyse (Weiz) bis zum Living Lab (Krawi).
+Die Projekte unten zeigen, wie sich diese Entwicklung in der Praxis entfaltet — vom ersten Garten (Tirolerheim) über private Planung (Ansitz Hofer) und akademische Analyse (Weiz) bis zum Living Lab (Krawi).

@@ -48,7 +48,7 @@ Regenerative Landschaftsgestaltung arbeitet *mit* natürlichen Prozessen, nicht 
 
 ### Landschaftsplanung-Studium (laufend) — BOKU Wien
 → Vertiefung: Planung, Ökologie, Ingenieurbiologie.
-→ Natursteinmauerbau-Baupraktikum → Perktold-Ansitz Hofer.
+→ Natursteinmauerbau-Baupraktikum → Ansitz Hofer.
 
 ### Regenerating Weiz (2026) — Akademisches Design Project
 → Multi-Scale-Ansatz: Gesamtes Wassereinzugsgebiet analysiert und konzipiert.

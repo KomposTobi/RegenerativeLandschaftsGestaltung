@@ -9,7 +9,7 @@ description: "Nächste Schritte und Kontakt"
 
 1. **Krawi konkretisieren** — Sanierung Kranewitterstraße als Living Lab
 2. **Masterarbeit** — Thema finden, das Business und Forschung verbindet
-3. **Perktold umsetzen** — Von der Planung zur Baustelle
+3. **Ansitz Hofer umsetzen** — Von der Planung zur Baustelle
 4. **Weiz weiterentwickeln** — Von der akademischen Analyse zur realen Umsetzung
 5. **Website ausbauen** — Mehr Projekte, mehr Tiefe, mehr visuelle Materialien
 

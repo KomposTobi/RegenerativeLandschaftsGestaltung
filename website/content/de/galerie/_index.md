@@ -5,7 +5,7 @@ description: "Visuelles Material aus den Projekten"
 
 ## Visuelles Material
 
-*Filter nach Projekt: [Alle] [Tirolerheim] [Perktold] [Weiz] [Krawi]*
+*Filter nach Projekt: [Alle] [Tirolerheim] [Ansitz Hofer] [Weiz] [Krawi]*
 
 ---
 
@@ -46,7 +46,7 @@ description: "Visuelles Material aus den Projekten"
 
 ---
 
-## Perktold-Ansitz Hofer
+## Ansitz Hofer
 
 *[Bilder aus dem Drive-Ordner werden noch hinzugefügt]*
 
