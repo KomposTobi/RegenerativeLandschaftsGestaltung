@@ -48,7 +48,36 @@ description: "Visuelles Material aus den Projekten"
 
 ## Ansitz Hofer
 
-*[Bilder aus dem Drive-Ordner werden noch hinzugefügt]*
+*Planungsprozess für Perktold-Ansitz Hofer, Fulpmes (2025)*
+
+<div class="flex flex-wrap gap-4 mt-4">
+  <div class="w-30">
+    <img src="/RegenerativeLandschaftsGestaltung/images/projects/ansitz-hofer/uebersicht.jpg" alt="Übersichtsplan" class="w-100">
+    <p class="f7 mt-2">Übersichtsplan — Grundstücksstruktur und Zonierung</p>
+  </div>
+  <div class="w-30">
+    <img src="/RegenerativeLandschaftsGestaltung/images/projects/ansitz-hofer/grundriss.jpg" alt="Grundriss" class="w-100">
+    <p class="f7 mt-2">Grundriss — Anpassungen im Design</p>
+  </div>
+  <div class="w-30">
+    <img src="/RegenerativeLandschaftsGestaltung/images/projects/ansitz-hofer/schnitt-terrassierung.jpg" alt="Schnitt Terrassierung" class="w-100">
+    <p class="f7 mt-2">Schnitt — Terrassierung und Mauern</p>
+  </div>
+  <div class="w-30">
+    <img src="/RegenerativeLandschaftsGestaltung/images/projects/ansitz-hofer/schnitt-ebene.jpg" alt="Schnitt Ebene" class="w-100">
+    <p class="f7 mt-2">Schnittansicht — Schräge Mauer und Geländeanpassung</p>
+  </div>
+  <div class="w-30">
+    <img src="/RegenerativeLandschaftsGestaltung/images/projects/ansitz-hofer/berechnungen.jpg" alt="Berechnungen" class="w-100">
+    <p class="f7 mt-2">Mauer- und Erdbau-Berechnungen</p>
+  </div>
+  <div class="w-30">
+    <img src="/RegenerativeLandschaftsGestaltung/images/projects/ansitz-hofer/bachlauf.png" alt="Bachlauf" class="w-100">
+    <p class="f7 mt-2">Skizze — Bachlauf und Retentionsbecken</p>
+  </div>
+</div>
+
+*Diese Karten und Pläne dokumentieren den Gestaltungsprozess — von der ersten Analyse über Terrassierungskonzepte bis zu technischen Details. Der Planungsprozess ist ebenso wichtig wie das fertige Ergebnis.*
 
 ---
 
