@@ -29,6 +29,8 @@ description: "Nächste Schritte und Kontakt"
 
 ## Kontakt
 
-- **E-Mail:** [deine E-Mail]
-- **Instagram:** [@dein_account] (von deiner Freundin betreut)
-- [Weitere Kontakte]
+**Tobias Piegger**  
+Regenerative Landschaftsgestaltung
+
+- **E-Mail:** tobias.piegger@students.boku.ac.at
+- **Instagram:** [@kompostobi](https://instagram.com/kompostobi) (von deiner Freundin betreut)
