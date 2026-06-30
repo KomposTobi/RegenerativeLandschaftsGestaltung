@@ -32,22 +32,10 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version: '1.22'
-      - name: Setup Hugo Modules
-        run: |
-          cd website
-          echo "Checking go.mod..."
-          ls -la
-          if [ ! -f go.mod ]; then
-            echo "go.mod not found, running hugo mod init"
-            hugo mod init github.com/KomposTobi/RegenerativeLandschaftsGestaltung
-          else
-            echo "go.mod already exists, skipping init"
-          fi
-          hugo mod tidy
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ github.workspace }}/.hugo_cache
-        run: cd website && hugo --gc --minify
+        run: cd website && hugo mod tidy && hugo --gc --minify
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
