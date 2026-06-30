@@ -32,10 +32,12 @@ jobs:
         uses: actions/setup-go@v5
         with:
           go-version: '1.22'
+      - name: Setup Hugo Modules
+        run: cd website && hugo mod tidy
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ github.workspace }}/.hugo_cache
-        run: cd website && hugo mod tidy && hugo --gc --minify
+        run: cd website && hugo --gc --minify
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
