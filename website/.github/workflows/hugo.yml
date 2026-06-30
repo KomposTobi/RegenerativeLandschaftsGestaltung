@@ -35,8 +35,13 @@ jobs:
       - name: Setup Hugo Modules
         run: |
           cd website
+          echo "Checking go.mod..."
+          ls -la
           if [ ! -f go.mod ]; then
+            echo "go.mod not found, running hugo mod init"
             hugo mod init github.com/KomposTobi/RegenerativeLandschaftsGestaltung
+          else
+            echo "go.mod already exists, skipping init"
           fi
           hugo mod tidy
       - name: Build with Hugo
