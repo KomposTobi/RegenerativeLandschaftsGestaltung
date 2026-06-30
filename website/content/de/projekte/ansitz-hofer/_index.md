@@ -41,11 +41,10 @@ Von der Analyse zum fertigen Design — digitale Standortanalyse, Terrassierungs
 | Untere Terrasse (feucht, beschattet) | Gehölz | Farne, Hosta, Helleborus | Extensiv |
 | Retentionsbecken/Bachlauf | Wasserrand/Wasser | Iris, Caltha, Myosotis, Carex | Extensiv |
 
-### Erweiterungen (geplant)
+### Mögliche Weiterentwicklungen
 
-- Hühnerhaltung mit Roll-Away Nest Box
-- Obstgarten mit Companion Planting
-- Agroforst-Elemente
+- Obstgarten mit Mischkultur
+- Agroforstliche Elemente
 
 ---
 
