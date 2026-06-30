@@ -33,4 +33,4 @@ description: "Nächste Schritte und Kontakt"
 Regenerative Landschaftsgestaltung
 
 - **E-Mail:** tobias.piegger@students.boku.ac.at
-- **Instagram:** [@kompostobi](https://instagram.com/kompostobi) (von deiner Freundin betreut)
+- **Instagram:** [@kompostobi](https://instagram.com/kompostobi)

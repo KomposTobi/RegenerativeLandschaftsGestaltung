@@ -12,7 +12,7 @@ description: "Garten-Etablierung + Bachelorarbeit (2021-2024)"
 
 ## Kontext
 
-1,6 Hektar Land für 130 Studierende. Große Flächen, motivierte Bewohner, aber: Konflikt mit Heimleitung über Kontrolle. Der Garten wurde zum Experimentierfeld — und zur Grundlage meiner GIS-Reise.
+1,6 Hektar Land für 130 Studierende. Große Flächen, motivierte Bewohner. Der Garten wurde zum Experimentierfeld für regenerative Gestaltung — und zur Grundlage meiner GIS-Reise.
 
 ## Was gemacht wurde
 
